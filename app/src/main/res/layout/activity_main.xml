@@ -1,0 +1,40 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/plogo"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/start_session_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/azure"
+            android:background="@color/black"
+            android:text="START"/>
+
+        <Button
+            android:id="@+id/view_log_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/azure"
+            android:background="@color/black"
+            android:text="VIEW HOURS"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

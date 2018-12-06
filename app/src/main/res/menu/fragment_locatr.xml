@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LocatrActivity">
+
+
+    <item android:id="@+id/action_locate"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/start"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:gravity="center"
+        android:textColor="@color/azure"
+        android:background="#FFFFFF"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_stop"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="STOP"
+        android:orderInCategory="100"
+        android:enabled="true"
+        android:textColor="@color/azure"
+        android:background="#FFFFFF"
+        app:showAsAction="ifRoom"/>
+
+
+
+</menu>
